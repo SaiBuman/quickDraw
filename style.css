@@ -1,0 +1,21 @@
+body {
+    background-color:#48ff0083;
+}
+
+#h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+#h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+}
+
+p {
+    font-size: 25px;
+}
+
+#drawSketch {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
