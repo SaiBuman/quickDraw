@@ -26,7 +26,7 @@ console.log(random_number);
 
 sketch = quick_draw_data_set[random_number];
 
-document.getElementById("drawSketch").innerHTML = " Your Sketch to be drawn : " + sketch;
+document.getElementById("drawsketch").innerHTML = " Your Sketch to be drawn : " + sketch;
 
 timer_counter = 0;
 
@@ -77,7 +77,7 @@ function gotResult(error,result) {
     else {
         console.log(result);
 
-       document.getElementById("label").innerHTML = "Label : " + result[0].label;
+       document.getElementById("yourSketch").innerHTML = "Label : " + result[0].label;
        document.getElementById("confidence").innerHTML = "Confidence : " + Math.round(result[0].confidence*100)+"%";
 
        utter = new SpeechSynthesisUtterance(result[0].label);
